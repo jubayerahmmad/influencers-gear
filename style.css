@@ -171,7 +171,7 @@ li > a {
 
 /* mobile responsive */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
   header,
   main {
     padding: 30px;
@@ -222,5 +222,8 @@ li > a {
   }
   .popular-collection-list{
     grid-template-columns: repeat(1, 1fr);
+  }
+  .popular-collection-card {
+    width: 100%;
   }
 }
